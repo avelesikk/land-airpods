@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #e1e1e1;
+    font-family: 'Inter', sant-serif;
+}
+.header {
+}
+.header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0px;
+}
+.logo {
+}
+.nav {
+}
+.nav-list {
+    display: flex;
+    list-style: none;
+    gap: 60px;
+    
+}
+.nav-item {
+}
+.nav-link {
+    text-decoration: none;
+    color: #6b6b6b;
+    font-style: 23px;
+}
+.intro {
+}
+.intro-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    gap: 25px;
+}
+.intro-left {
+}
+.intro-img {
+}
+.intro-right {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: start;
+}
+.intro-heading {
+    font-size: 90px;
+    font-weight: 900;
+    color: #393939;
+    line-height: 90px;
+}
+.intro-text {
+    font-size: 20px;
+    font-weight: 500;
+    color: #6b6b6b;
+}
+.intro-btn {
+    text-decoration: none;
+    font-size: 24px;
+    color: #393939;
+    background: #d9d9d9;
+    padding: 25px 60px;
+    border-radius: 50px;
+    display: inline-block;
+    box-shadow: inset 0 4px 4px #00000067, 0 4px 4px #00000067;
+
+}
